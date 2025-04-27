@@ -69,17 +69,11 @@ Se você deseja contribuir para o desenvolvimento deste aplicativo, siga estas e
 4.  Faça um push para a branch (`git push origin feature/nova-funcionalidade`).
 5.  Abra um Pull Request no GitHub.
 
-## Roadmap (Opcional)
-
-* (Se você tem planos para futuras funcionalidades, pode listá-las aqui.)
-    * Mais opções de relatórios.
-    * Integração com outros sistemas.
-    * Alertas de estoque baixo.
 
 ## Autor
 
-* (Seu Nome/Nome da Organização)
-* (Seu Email ou Link para seu perfil no GitHub/outro)
+* (João Victor da Silva Oliveira)
+* (Email: joaovictoroliveira7141@gmail.com)
 
 ## Licença
 
