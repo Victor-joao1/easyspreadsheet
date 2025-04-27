@@ -1,33 +1,25 @@
-# easyspreadsheet
-Um aplicativo Android simples e intuitivo para criar e gerenciar planilhas de forma fácil e rápida, desenvolvido em Kotlin.
-
-# Easy Spreadsheet
+# Easy Spreadsheet (ou Nome do Seu Aplicativo de Estoque)
 
 [![Licença](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Um aplicativo Android simples e intuitivo para criar e gerenciar planilhas de forma fácil e rápida. Desenvolvido em Kotlin, o Easy Spreadsheet oferece uma interface amigável para usuários que precisam de funcionalidades essenciais de planilha em seus dispositivos móveis.
+Um aplicativo Android simples e intuitivo desenvolvido em Kotlin para facilitar o controle de estoque e gerar relatórios básicos. O objetivo principal é proporcionar facilidade de uso e agilidade na gestão de estoque, visando a redução de erros e a melhoria da operação.
 
 ## Funcionalidades Principais
 
-* **Criação e Edição de Tabelas:** Crie novas planilhas e edite o conteúdo das células com facilidade.
-* **Inserção e Remoção de Linhas e Colunas:** Flexibilidade para ajustar a estrutura da sua planilha conforme necessário.
-* **Formatação Básica de Células:** Aplique formatação como negrito, itálico e alinhamento para melhorar a apresentação dos dados.
-* **Cálculos Simples:** Suporte para fórmulas básicas como soma, média, máximo e mínimo.
-* **Visualização Clara dos Dados:** Interface otimizada para visualização em dispositivos móveis.
-* **(Adicione aqui outras funcionalidades específicas do seu aplicativo)**
+* **Controle de Estoque:** Gerencie a entrada e saída de produtos do seu estoque de forma eficiente.
+* **Listagem de Produtos:** Visualize todos os produtos cadastrados com detalhes importantes.
+* **Relatórios Básicos:** Gere relatórios simples para acompanhar o status do seu estoque (ex: lista de produtos, níveis de estoque).
+* **(Adicione aqui outras funcionalidades específicas do seu aplicativo de controle de estoque)**
 
 ## Tecnologias Utilizadas
 
 * **Kotlin:** A linguagem de programação principal para o desenvolvimento Android.
 * **Android SDK:** O kit de desenvolvimento de software para a plataforma Android.
-* **(Adicione aqui quaisquer bibliotecas ou frameworks Android que você esteja utilizando, como Compose, View Binding, Room, etc.)**
-* **(Se você estiver usando alguma biblioteca externa específica para planilha ou cálculos, mencione aqui.)**
 
 ## Como Executar o Projeto (Para Desenvolvedores)
 
 1.  **Pré-requisitos:**
     * Android Studio instalado em sua máquina.
     * Android SDK configurado (com as APIs necessárias para o projeto).
-    * (Mencione quaisquer outros requisitos específicos, como versões mínimas do SDK)
 
 2.  **Clonando o Repositório:**
     ```bash
@@ -47,31 +39,29 @@ Um aplicativo Android simples e intuitivo para criar e gerenciar planilhas de fo
 ## Instruções de Uso (Para Usuários Finais - Opcional, mas útil se for um projeto open source com builds disponíveis)
 
 1.  **Instalação:**
-    * (Se você planeja disponibilizar builds, explique como instalar o APK ou através da Google Play Store, se for o caso.)
+    * (Se você planeja disponibilizar builds, explique como instalar o APK.)
 
-2.  **Criando uma Nova Planilha:**
-    * Ao abrir o aplicativo, toque no botão "+" ou em alguma opção similar para criar uma nova planilha.
+2.  **Controle de Estoque:**
+    * (Explique como adicionar novos produtos, registrar entradas e saídas.)
 
-3.  **Editando Células:**
-    * Toque em uma célula para selecioná-la.
-    * Um teclado aparecerá para você inserir ou editar o conteúdo.
+3.  **Listagem de Produtos:**
+    * (Explique como visualizar a lista de produtos e quais informações são exibidas.)
 
-4.  **Inserindo Linhas/Colunas:**
-    * (Explique como o usuário pode adicionar novas linhas e colunas, seja por um menu, botões específicos, etc.)
+4.  **Relatórios Básicos:**
+    * (Explique como gerar os relatórios disponíveis e o que eles mostram.)
 
-5.  **Usando Fórmulas:**
-    * Para inserir uma fórmula, comece com o símbolo "=" seguido da função desejada (ex: `=SOMA(A1:A5)`).
-    * (Liste as fórmulas suportadas, como `SOMA`, `MEDIA`, `MAX`, `MIN`, e explique brevemente como usá-las.)
+## Objetivos da Aplicação (Contexto da Avaliação)
 
-6.  **(Adicione instruções para outras funcionalidades principais.)**
+Este aplicativo foi desenvolvido com os seguintes objetivos em mente:
 
-## Arquitetura do Projeto (Opcional, mas bom para projetos mais complexos)
-
-* (Se você utilizou alguma arquitetura específica como MVVM, MVP, MVI, explique brevemente os componentes e o fluxo de dados.)
+* **Efetividade da Solução:** Atender às funcionalidades previstas de gestão de estoque, proporcionando facilidade de uso e agilidade.
+* **Redução de Erros e Retrabalho:** Diminuir inconsistências nos processos internos em comparação com o controle manual anterior.
+* **Satisfação dos Colaboradores:** Proporcionar uma ferramenta útil e de fácil aceitação para os usuários da empresa.
+* **Impacto na Operação:** Gerar melhorias visíveis em termos de organização e controle de estoque.
 
 ## Contribuição
 
-Se você deseja contribuir para o desenvolvimento do Easy Spreadsheet, siga estas etapas:
+Se você deseja contribuir para o desenvolvimento deste aplicativo, siga estas etapas:
 
 1.  Faça um fork do repositório.
 2.  Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`).
@@ -82,10 +72,9 @@ Se você deseja contribuir para o desenvolvimento do Easy Spreadsheet, siga esta
 ## Roadmap (Opcional)
 
 * (Se você tem planos para futuras funcionalidades, pode listá-las aqui.)
-    * Suporte para mais fórmulas.
-    * Importação e exportação de arquivos (CSV, Excel).
-    * Gráficos.
-    * Sincronização com a nuvem.
+    * Mais opções de relatórios.
+    * Integração com outros sistemas.
+    * Alertas de estoque baixo.
 
 ## Autor
 
